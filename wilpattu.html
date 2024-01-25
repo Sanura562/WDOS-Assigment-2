@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x" href="assets/img/Logo.png" />
+    <title>Wilpattu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" alt />
+    <link rel="stylesheet" href="assets/css/wilpattu.css" />
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="index.html">Wildlife In Sri Lanka</a></div>
+        <ul class="links">
+          <li>
+            <a href="wildlifeintro.html">Sri Lankan Wildlife Introduction</a>
+          </li>
+          <li>
+            <a href="departmentwc.html">Department of Wildlife conservation</a>
+          </li>
+          <li><a href="sl_leopard.html">Sri Lankan Leopard</a></li>
+          <li><a href="animalsinsl.html">Animals in Sri Lanka</a></li>
+        </ul>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown_menu">
+          <ul class="dropdown_links">
+            <li>
+              <a href="wildlifeintro.html">Sri Lankan Wildlife Introduction</a>
+            </li>
+            <li>
+              <a href="departmentwc.html"
+                >Department of Wildlife conservation</a
+              >
+            </li>
+            <li><a href="sl_leopard.html">Sri Lankan Leopard</a></li>
+            <li><a href="animalsinsl.html">Animals in Sri Lanka</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="heading">
+      <h1 class="wilpattu-heading">Wilpattu National Park</h1>
+    </div>
+    <div class="about">
+      <h2 class="about-us">About-us</h2>
+      <p class="wilpattu-intro">
+        Evidence of an ancient civilization is indicated through irrigation, and
+        other structures found at the park, while the area is associated with
+        much legends and history. Rewinding to 500 BC, King Vijaya landed at
+        Thambapanni (meaning “red earth” in Sanskrit), which is located at
+        Kudarimalai area. <br />
+        Further Paleolithic and Mesolithic records are found from several
+        locations. Fast forward to more recent times, the park was closed for
+        the public due to the onset of the civil conflict from mid 1980s up to
+        February 2010, and WNP is currently undergoing rehabilitation
+        infrastructure and strengthening its management to bring back its
+        glorious past.
+      </p>
+    </div>
+    <div class="wilpattu-images">
+      <img class="Wl" src="assets/img/Wilpattu-Leopard-1.jpg" alt="" />
+      <img class="HE" src="assets/img/Hawk-Eagle.jpg" alt="" />
+    </div>
+    <div class="location">
+      <h2>Location To The Park</h2>
+      <iframe
+        class="location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505152.31261000596!2d79.70642759141359!3d8.4504206774059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afdac7787e4bc27%3A0xcdd9a0715dad187c!2sWilpattu%20National%20Park!5e0!3m2!1sen!2slk!4v1705321392610!5m2!1sen!2slk"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </body>
+  <section class="footer">
+    <div class="social">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+
+    <ul class="footer-list">
+      <li>
+        <a href="#">Wildlife In Sri Lanka</a>
+      </li>
+      <li>
+        <a href="#">Sri Lankan Wildlife Introduction</a>
+      </li>
+      <li>
+        <a href="#">Department W.C</a>
+      </li>
+      <li>
+        <a href="#">Sri Lankan Leopard</a>
+      </li>
+      <li>
+        <a href="#">Animals S.L</a>
+      </li>
+    </ul>
+    <p class="copyright">Sanura Sihath @2023 Allrights Reserved</p>
+  </section>
+  <script>
+    const toggleBtn = document.querySelector(".toggle_btn");
+    const toggleBtnIcon = document.querySelector(".toggle_btn i");
+    const dropdownMenu = document.querySelector(".dropdown_menu");
+
+    toggleBtn.onclick = function () {
+      dropdownMenu.classList.toggle("open");
+      const isopen = dropdownMenu.classList.contains("open");
+
+      toggleBtnIcon.classList = isopen
+        ? "fa-solid fa-xmark"
+        : "fa-solid fa-bars";
+    };
+  </script>
+</html>

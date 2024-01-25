@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/yala.css" />
+    <title>Yala</title>
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="index.html">Wildlife In Sri Lanka</a></div>
+        <ul class="links">
+          <li>
+            <a href="wildlifeintro.html">Sri Lankan Wildlife Introduction</a>
+          </li>
+          <li>
+            <a href="departmentwc.html">Department of Wildlife conservation</a>
+          </li>
+          <li><a href="sl_leopard.html">Sri Lankan Leopard</a></li>
+          <li><a href="animalsinsl.html">Animals in Sri Lanka</a></li>
+        </ul>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="dropdown_menu">
+          <ul class="dropdown_links">
+            <li>
+              <a href="wildlifeintro.html">Sri Lankan Wildlife Introduction</a>
+            </li>
+            <li>
+              <a href="departmentwc.html"
+                >Department of Wildlife conservation</a
+              >
+            </li>
+            <li><a href="sl_leopard.html">Sri Lankan Leopard</a></li>
+            <li><a href="animalsinsl.html">Animals in Sri Lanka</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  </head>
+  <body>
+    <div class="header">
+      <div class="heading">
+        <h1 class="title">Yala National Park</h1>
+      </div>
+    </div>
+    <div class="about">
+      <h2 class="title">Facts About The Park</h2>
+      <p class="intro">
+        Yala combines a strict nature reserve with a national park. Divided into
+        5 blocks, the park has a protected area of nearly 130,000 hectares of
+        land consisting of light forests, scrubs, grasslands, tanks and lagoons.
+        Two blocks are currently opened to the public. Situated in Sri Lanka’s
+        south-east hugging the panoramic Indian Ocean, Yala was designated a
+        wildlife sanctuary in 1900 and was designated a national park in 1938.
+        Ironically, the park was initially used as a hunting ground for the
+        elite under British rule. Yala is home to 44 varieties of mammal and 215
+        bird species. Among its more famous residents are the world’s biggest
+        concentration of leopards, majestic elephants, sloth bears, sambars,
+        jackals, spotted dear, peacocks, and crocodiles. The best time to visit
+        Yala is between February and July when the water levels of the park are
+        quite low, bringing animals into the open.
+          <div class="yala-image1"><img src="assets/img/Yala 1.png" width="400px" alt="" /></div>
+      </p>
+    </div>
+    <div class="heading">
+      <h2 class="title">THE TERRAIN Explained</h2>
+    </div>
+    <p class="intro">Yala is all about convergence of magnificence and endurance, painting a picture of eternal beauty and mystery. It’s a vast deciduous forest where the land gives up its green top, exposing vast expanses of open terrain dotted with grasslands and shrubs, tanks and lagoons, water holes and sand dunes. Despite its lack of a thick forest cover, animals are still experts at taking cover from prying eyes.</p>
+
+
+
+  </body>
+  <section class="footer">
+    <div class="social">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+
+    <ul class="footer-list">
+      <li>
+        <a href="index.html">Wildlife In Sri Lanka</a>
+      </li>
+      <li>
+        <a href="wildlifeintro.html">Sri Lankan Wildlife Introduction</a>
+      </li>
+      <li>
+        <a href="departmentwc.html">Department W.C</a>
+      </li>
+      <li>
+        <a href="sl_leopard.html">Sri Lankan Leopard</a>
+      </li>
+      <li>
+        <a href="animalsinsl.html">Animals S.L</a>
+      </li>
+    </ul>
+    <p class="copyright">Sanura Sihath @2023 Allrights Reserved</p>
+  </section>
+  <script>
+    const toggleBtn = document.querySelector(".toggle_btn");
+    const toggleBtnIcon = document.querySelector(".toggle_btn i");
+    const dropdownMenu = document.querySelector(".dropdown_menu");
+
+    toggleBtn.onclick = function () {
+      dropdownMenu.classList.toggle("open");
+      const isopen = dropdownMenu.classList.contains("open");
+
+      toggleBtnIcon.classList = isopen
+        ? "fa-solid fa-xmark"
+        : "fa-solid fa-bars";
+    };
+  </script>
+</html>

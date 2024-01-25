@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+.header {
+    background-image: url(../img/WILPATTU-Leopard-Image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.wilpattu-heading {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.about-us {
+    color: black;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.wilpattu-intro {
+    color: black;
+    font-size: 2rem;
+    justify-content: center;
+    padding-top: 29px;
+    text-align: center;
+    padding-bottom: 50px;
+    line-height: 3rem;
+    padding: 29px 29px 50px 29px;
+}
+
+.wilpattu-images {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.wilpattu-images img {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 60px;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.wilpattu-images img:hover {
+
+    transform: translateY(-20px);
+    transform: scale(1.02);
+}
+
+.location h2 {
+    color: black;
+}
+
+.location {
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:1023px) {
+    .wilpattu-images {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        padding-left: 30px;
+    }
+}
