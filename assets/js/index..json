@@ -1,0 +1,45 @@
+{
+  "navbar": {
+    "logo": "Wildlife In Sri Lanka",
+    "links": [
+      {
+        "title": "Sri Lankan Wildlife Introduction",
+        "href": "wildlifeintro.html"
+      },
+      { "title": "Login", "href": "login.html" },
+      {
+        "title": "Department of Wildlife conservation",
+        "href": "departmentwc.html"
+      },
+      { "title": "Sri Lankan Leopard", "href": "sl_leopard.html" },
+      { "title": "Animals in Sri Lanka", "href": "animalsinsl.html" }
+    ]
+  },
+  "hero": {
+    "title": "Sri Lankan Wildlife"
+  },
+  "about": {
+    "title": "An Introduction To The Sri Lankan Wildlife",
+    "intro": "Sri Lanka, a tropical island nation located in South Asia, is renowned for its rich and diverse wildlife. The country's unique geographical features, including dense rainforests, highlands, and coastal areas, contribute to its remarkable biodiversity. Sri Lanka is considered a biodiversity hotspot, meaning it harbors a high number of species that are found nowhere else on earth."
+  },
+  "topParks": {
+    "title": "Here Are The Top 5 National Parks In Sri Lanka",
+    "parks": [
+      "Horton Plains National Park",
+      "Udawalawe National Park",
+      "Minneriya National Park",
+      "Yala National Park",
+      "Wilpattu National Park"
+    ]
+  },
+  "facts": {
+    "title": "Interesting Facts About Sri Lankan Wildlife",
+    "factsList": [
+      "Endemic Species Abound: Sri Lanka is a biodiversity hotspot, with unique species like the Sri Lankan leopard, elephant, and purple-faced langur found nowhere else on Earth.",
+      "Elephant Gathering in Minneriya: Minneriya National Park hosts an annual elephant gathering, attracting hundreds of elephants to socialize, bathe, and graze in large groups during the dry season.",
+      "Avian Paradise: Sri Lanka is a birdwatching paradise with over 430 species, including the national bird, the Sri Lanka junglefowl, and diverse habitats like rainforests and wetlands.",
+      "Leopard Density in Yala: Yala National Park, home to the Sri Lankan leopard, is renowned for its high leopard densities, thanks to its diverse ecosystems.",
+      "Marine Marvels: Sri Lanka's coastal areas are home to diverse marine life, including fish, sea turtles, dolphins, and whales, with Mirissa and Trincomalee popular whale watching spots."
+    ]
+  }
+}
