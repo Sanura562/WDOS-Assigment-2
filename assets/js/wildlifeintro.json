@@ -1,0 +1,123 @@
+{
+  "section2": {
+    "locations": {
+      "about-location": {
+        "section-heading": "Different Wildlife Locations In Sri Lanka",
+        "location-intro": "These locations showcase the incredible diversity of wildlife in Sri Lanka and offer unique opportunities for nature enthusiasts and wildlife photographers. Each region has its own distinct ecosystem, contributing to the overall richness of Sri Lanka's natural heritage."
+      },
+      "flex-conatiner": {
+        "flex-item1": {
+          "items-heading": "1. Horton Plains National Park",
+          "intro": "Situated in the central highlands of Sri Lanka, in the Nuwara Eliya District. This stunning park offers a dramatic change from the dry lowlands. Lush montane forests, rolling grasslands, and breathtaking waterfalls characterize the landscape. Home to endemic birds like the Sri Lankan thrush and purple-faced langur, Horton Plains is a paradise for nature lovers and hikers.",
+          "img": {
+            "src": "assets/img/Horton-Plains-National.jpg",
+            "height": "300px",
+            "width": "400",
+            "alt": ""
+          },
+          "iframe": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.674038510928!2d80.8023333!3d6.8094459999999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1703657854220!5m2!1sen!2slk",
+            "width": "700",
+            "height": "300",
+            "style": "border: 0",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+          }
+        },
+        "flex-item2": {
+          "items-heading": "2. Bundala National Park",
+          "intro": "Located in the south of Sri Lanka, near the town of Hambantota. It's known for its lagoons, marshes, and sand dunes, and is a great place to see migratory birds like flamingos, pelicans, and shorebirds. You can also spot elephants, crocodiles, and even the occasional leopard.",
+          "img": {
+            "src": "assets/img/Bundala_National prak.jpg",
+            "width": "300px",
+            "height": "200px",
+            "alt": ""
+          },
+          "iframe": {
+            "class": "bundala",
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4886002981507!2d81.2104935!3d6.1990863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae69842ecb214eb%3A0x145a2d402f36beb0!2sBundala%20National%20Park!5e0!3m2!1sen!2slk!4v1703656241478!5m2!1sen!2slk",
+            "width": "700",
+            "height": "300",
+            "style": "border: 0",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+          }
+        },
+        "flex-item3": {
+          "items-heading": "3. Minneriya National Park",
+          "intro": "Located in the north-central part of Sri Lanka, in the Anuradhapura District. It's famous for its large gatherings of elephants, especially during the dry season (May-October). The 'Gathering' can see over 200 elephants congregating around the Minneriya reservoir. Minneriya also boasts leopards, sloth bears, and a variety of birds.",
+          "img": {
+            "src": "assets/img/Minneriya-National-Park.webp",
+            "width": "300px",
+            "height": "200px"
+          },
+          "iframe": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.8379205229453!2d80.84467029999999!3d8.0156443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb6009a20be05d%3A0xa4d046f2f06b05f5!2sMinneriya%20National%20Park!5e0!3m2!1sen!2slk!4v1703660921951!5m2!1sen!2slk",
+            "width": "700",
+            "height": "300",
+            "style": "border: 0",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+          }
+        },
+        "flex-item4": {
+          "items-heading": "4. Kaudulla National Park",
+          "intro": "Nestled in the heart of the Cultural Triangle, in the Polonnaruwa District. Kaudulla is known for its large elephant population and lush grasslands. The park also offers sightings of leopards, deer, and monkeys.",
+          "img": {
+            "src": "assets/img/kaudulla_national park.jpg",
+            "width": "300px",
+            "height": "200px"
+          },
+          "iframe": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.909291060455!2d80.8858542!3d8.110718499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb61f06b945489%3A0x745a344d553516b!2sKaudulla%20National%20Park!5e0!3m2!1sen!2slk!4v1703662330561!5m2!1sen!2slk",
+            "width": "900",
+            "height": "300",
+            "style": "border: 0",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+          }
+        }
+      }
+    }
+  },
+  "table": {
+    "animals-table": {
+      "head": ["Animal Name", "Intersting Facts About The Animal", "Location"],
+      "body": [
+        {
+          "Mugger crocodile": [
+            "They prefer shallow waters with plenty of vegetation for cover.",
+            "Primarily found in freshwater habitats like lakes, rivers, and marshes."
+          ]
+        },
+        {
+          "Spotted Deer": [
+            "The warm Sri Lankan climate allows these deer to breed throughout the year, unlike their counterparts in colder regions. This contributes to their healthy populations, making them a common sight in forests and grasslands.",
+            "Kaudulla National Park"
+          ]
+        },
+        {
+          "Sri Lankan Purple-Faced Langur": [
+            "These monkeys spend their lives high in the rainforest canopy, rarely venturing to the ground. Their long limbs and powerful tails act as aerial tools, allowing them to navigate the leafy labyrinth with graceful leaps and swings.",
+            "Horton Plains National Park"
+          ]
+        },
+        {
+          "Sri Lankan Leopards": [
+            "They roam diverse landscapes, from verdant rainforests and dry thorn forests to open grasslands and even rocky hills.",
+            "Horton Plains National Park"
+          ]
+        }
+      ],
+      "foot": [
+        {
+          "Sri Lanakan Wildlife Department": ""
+        }
+      ]
+    }
+  }
+}

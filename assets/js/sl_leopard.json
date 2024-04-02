@@ -1,0 +1,54 @@
+{
+  "Leopard_heading": "The Sri Lankan Leopard",
+  "flexbox1": [
+    {
+      "park_head": "<a href=\"https://www.kumananationalpark.com/\">Kumana National Park</a>",
+      "about": "Visitors can explore Kumana National Park through guided safaris, which can include jeep tours and boat safaris along the lagoons. The park offers a more tranquil and less crowded alternative to some of the busier national parks in Sri Lanka.",
+      "image": {
+        "src": "assets/img/flexbox-container1-65a0f06971dd6.webp",
+        "alt": "Leopard"
+      }
+    },
+    {
+      "park_head": "<a href=\"https://en.wikipedia.org/wiki/Horton_Plains_National_Park\">Horton Plains National Park</a>",
+      "about": "While leopard sightings in Horton Plains are less common compared to parks like Yala, visitors may still have the chance to spot these elusive cats in the higher elevations of the park.",
+      "image": {
+        "src": "assets/img/Horton-place.jpg",
+        "alt": "Leopard"
+      }
+    },
+    {
+      "park_head": "<a href=\"https://www.dwc.gov.lk/wnp\">Wilpattu National Park</a>",
+      "about": "While Wilpattu is famous for its population of Sri Lankan sloth bears, it also offers good opportunities to spot leopards. The park's large size and varied terrain make it an excellent habitat for these big cats.",
+      "image": {
+        "src": "assets/img/Flexbox-3.webp",
+        "alt": "Leopard"
+      }
+    }
+  ],
+  "threat1": {
+    "heading": "Illegal Wildlife Poaching",
+    "about": "Increased human-wildlife conflict can lead to negative attitudes toward conservation, retaliatory killings of wildlife, and disruptions to local.",
+    "subheading": "Mechanisms to Reduce the Threat",
+    "subabout": "Poaching has severe consequences for biodiversity. It can lead to a decline in the populations of targeted species, disrupt ecosystems, and even push certain species toward extinction. Additionally, the illegal wildlife trade can contribute to organized crime and undermine the social, economic, and environmental fabric of affected.",
+    "image": {
+      "src": "assets/img/Willife Poach.jpg",
+      "alt": "Threat Image"
+    }
+  },
+  "threat2": {
+    "heading": "Habitat Loss Due to Deforestation",
+    "about": "Habitat loss is one of the most significant threats to wildlife. It can result in the displacement and decline of plant and animal species, including many endangered and endemic ones. The fragmentation of habitats can lead to isolation of populations, reduced genetic diversity, and increased vulnerability to diseases. Additionally, deforestation contributes to climate change as forests play a crucial role in carbon sequestration.",
+    "subheading": "Mechanisms to Reduce the Threat",
+    "subabout": "Governments and local authorities play a crucial role in implementing land use policies that prioritize conservation and sustainable development. Proper planning can designate areas for agriculture, urbanization, and conservation, minimizing the impact on critical habitats.",
+    "image": {
+      "src": "assets/img/Deforestation.jpg",
+      "alt": "Deforestation Image"
+    },
+    "button": {
+      "label": "For More Information",
+      "link": "https://www.wnpssl.org/news/lolcleopard.html",
+      "target": "_blank"
+    }
+  }
+}

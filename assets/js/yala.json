@@ -1,0 +1,20 @@
+{
+  "header": {
+    "heading": {
+      "title": "Yala National Park"
+    }
+  },
+  "about": {
+    "title": "Facts About The Park",
+    "intro": "Yala combines a strict nature reserve with a national park. Divided into 5 blocks, the park has a protected area of nearly 130,000 hectares of land consisting of light forests, scrubs, grasslands, tanks and lagoons. Two blocks are currently opened to the public. Situated in Sri Lanka’s south-east hugging the panoramic Indian Ocean, Yala was designated a wildlife sanctuary in 1900 and was designated a national park in 1938. Ironically, the park was initially used as a hunting ground for the elite under British rule. Yala is home to 44 varieties of mammal and 215 bird species. Among its more famous residents are the world’s biggest concentration of leopards, majestic elephants, sloth bears, sambars, jackals, spotted dear, peacocks, and crocodiles. The best time to visit Yala is between February and July when the water levels of the park are quite low, bringing animals into the open.",
+    "yala-image1": {
+      "src": "assets/img/Yala 1.png",
+      "width": "400px",
+      "alt": ""
+    }
+  },
+  "heading": {
+    "title": "THE TERRAIN Explained"
+  },
+  "intro": "Yala is all about convergence of magnificence and endurance, painting a picture of eternal beauty and mystery. It’s a vast deciduous forest where the land gives up its green top, exposing vast expanses of open terrain dotted with grasslands and shrubs, tanks and lagoons, water holes and sand dunes. Despite its lack of a thick forest cover, animals are still experts at taking cover from prying eyes."
+}
