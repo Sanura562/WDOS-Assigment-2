@@ -74,9 +74,8 @@
       </div>
       <div class="loaction">
         <h2>Location to the Department</h2>
-        <div class="department_location">
-          <iframe class="loaction_dep" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2025377.9352916318!2d79.23121389523088!3d7.485528565075073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1704907355935!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <div class="department_location" id="iframeContainer">
+          </div>
       </div>
       <section class="footer">
         <div class="social">
@@ -106,7 +105,7 @@
         <p class="copyright">Sanura Sihath @2023 Allrights Reserved</p>
       </section>
     </main>
-    <script src="department.js"></script>
+    <script src="./department.js"></script>
     <script>
       const toggleBtn = document.querySelector(".toggle_btn");
       const toggleBtnIcon = document.querySelector(".toggle_btn i");

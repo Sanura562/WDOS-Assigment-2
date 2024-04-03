@@ -1,6 +1,6 @@
 async function fetchData() {
   try {
-    const response = await fetch("index.json"); // Replace 'data.json' with the path to your JSON file
+    const response = await fetch("department.json"); // Replace 'data.json' with the path to your JSON file
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
@@ -24,7 +24,7 @@ function storeDataLocally(data) {
     throw error;
   }
 }
------fetchData()
+fetchData()
   .then((data) => {
     storeDataLocally(data);
   })
@@ -32,7 +32,7 @@ function storeDataLocally(data) {
     console.error("Error:", error);
   });
 
-document.addEventListener("DOMContentLoaded", function () {-----
+document.addEventListener("DOMContentLoaded", function () {
   // Fetch data from JSON file
   fetch("index.json")
     .then((response) => {
@@ -41,25 +41,23 @@ document.addEventListener("DOMContentLoaded", function () {-----
       }
       return response.json();
     })
-    .then((data) => {
-      document.getElementById("hero-title").innerHTML = data.hero.title;
+    .then(() => {
+      function renderIframeFromJSON(data) {
+        const iframeURL = data.main.location.src;
+        const iframeWidth = data.main.location.width;
+        const iframeHeight = data.main.location.height;
 
-      ///loop through the parks array and create a list item for each park
-      //   data.topParks.parks.forEach((parkName) => {
-      //     const parkList = document.getElementById("park-lists");
-      //     const listItem = document.createElement("li");
+        const iframe = document.createElement("iframe");
 
-      //     listItem.textContent = parkName;
-      //     parkList.appendChild(listItem);
-      //   });
+        iframe.src = iframeURL;
+        iframe.width = iframeWidth;
+        iframe.height = iframeHeight;
 
-      //   data.topParks.parks.forEach((factName) => {
-      //     const factList = document.getElementById("facts-lists");
-      //     const listItem = document.createElement("li");
-
-      //     listItem.textContent = factName;
-      //     factList.appendChild(listItem);
-      //   });
+        document.getElementById("iframeContainer").appendChild(iframe);
+      }
+      fetchData("./department.json").then((data) => {
+        renderIframeFromJSON(data);
+      });
     })
     .catch((error) => {
       console.error("There was a problem with the fetch operation:", error);
