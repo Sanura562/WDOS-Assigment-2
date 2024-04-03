@@ -47,10 +47,6 @@ h2 {
   transform: scale(1.02);
 }
 
-iframe {
-  padding: 50px;
-}
-
 .department_location {
   align-items: center;
   text-align: center;
@@ -499,7 +495,7 @@ header {
 }
 
 #about .about-container .title {
-  color: #eef0e5;
+  color: #9dab61;
   font-weight: 700;
   font-size: 35px;
   justify-content: center;
@@ -513,6 +509,7 @@ header {
   align-items: center;
   margin-top: 50px;
   width: 75%;
+  background-color: rgb(255, 255, 255);
 }
 
 .intro {
@@ -879,4 +876,3 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-

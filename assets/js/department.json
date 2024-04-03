@@ -4,16 +4,6 @@
       "section-heading": "Welcome to the Department of Wildlife Conservationn",
       "intro": "At the heart of our commitment to preserving the planet's natural heritage lies the Department of Wildlife Conservation. We are dedicated to the protection, management, and sustainable utilization of the rich and diverse wildlife that graces our landscapes. Our mission is to ensure the delicate balance of ecosystems, promote biodiversity, and foster a harmonious coexistence between humans and wildlife."
     },
-    "container1": {
-      "Gallery": [
-        { "src": "assets/img/Gallery pic 1.jpg", "alt": "a_leopard" },
-        { "src": "assets/img/Gallery-pic-2.jpg", "alt": "Sloth-bear" },
-        { "src": "assets/img/Gallery pic 3.webp", "alt": "" },
-        { "src": "assets/img/Gallery-pic-4.jpg", "alt": "" },
-        { "src": "assets/img/Gallery-pic-5.jpg", "alt": "" },
-        { "src": "assets/img/Gallery-pic-6.jpg", "alt": "" }
-      ]
-    },
     "loaction": {
       "Location to the Department": {
         "department_location": {
