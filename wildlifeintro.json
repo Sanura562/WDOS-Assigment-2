@@ -1,19 +1,15 @@
 {
   "section2": {
     "locations": {
-      "about-location": {
-        "section-heading": "Different Wildlife Locations In Sri Lanka",
-        "location-intro": "These locations showcase the incredible diversity of wildlife in Sri Lanka and offer unique opportunities for nature enthusiasts and wildlife photographers. Each region has its own distinct ecosystem, contributing to the overall richness of Sri Lanka's natural heritage."
+      "about_location": {
+        "section_heading": "Different Wildlife Locations In Sri Lanka",
+        "location_intro": "These locations showcase the incredible diversity of wildlife in Sri Lanka and offer unique opportunities for nature enthusiasts and wildlife photographers. Each region has its own distinct ecosystem, contributing to the overall richness of Sri Lanka's natural heritage."
       },
-      "flex-conatiner": {
-        "flex-item1": {
-          "items-heading": "1. Horton Plains National Park",
+      "flex_container": {
+        "flex_item1": {
+          "items_heading": "1. Horton Plains National Park",
           "intro": "Situated in the central highlands of Sri Lanka, in the Nuwara Eliya District. This stunning park offers a dramatic change from the dry lowlands. Lush montane forests, rolling grasslands, and breathtaking waterfalls characterize the landscape. Home to endemic birds like the Sri Lankan thrush and purple-faced langur, Horton Plains is a paradise for nature lovers and hikers.",
-          "img": {
-            "src": "assets/img/Horton-Plains-National.jpg",
-            "height": "300px",
-            "width": "400",
-            "alt": ""
+         
           },
           "iframe": {
             "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.674038510928!2d80.8023333!3d6.8094459999999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1703657854220!5m2!1sen!2slk",
@@ -28,11 +24,7 @@
         "flex-item2": {
           "items-heading": "2. Bundala National Park",
           "intro": "Located in the south of Sri Lanka, near the town of Hambantota. It's known for its lagoons, marshes, and sand dunes, and is a great place to see migratory birds like flamingos, pelicans, and shorebirds. You can also spot elephants, crocodiles, and even the occasional leopard.",
-          "img": {
-            "src": "assets/img/Bundala_National prak.jpg",
-            "width": "300px",
-            "height": "200px",
-            "alt": ""
+          
           },
           "iframe": {
             "class": "bundala",
@@ -83,7 +75,7 @@
         }
       }
     }
-  },
+  }
   "table": {
     "animals-table": {
       "head": ["Animal Name", "Intersting Facts About The Animal", "Location"],
