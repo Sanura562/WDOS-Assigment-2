@@ -1,7 +1,7 @@
 {
   "main": {
-    "entry-content": {
-      "section-heading": "Welcome to the Department of Wildlife Conservationn",
+    "entry_content": {
+      "section_heading": "Welcome to the Department of Wildlife Conservationn",
       "intro": "At the heart of our commitment to preserving the planet's natural heritage lies the Department of Wildlife Conservation. We are dedicated to the protection, management, and sustainable utilization of the rich and diverse wildlife that graces our landscapes. Our mission is to ensure the delicate balance of ecosystems, promote biodiversity, and foster a harmonious coexistence between humans and wildlife."
     },
     "location": {
