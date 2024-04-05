@@ -82,9 +82,30 @@ document.addEventListener("DOMContentLoaded", function () {
         data.main.entry_content.section_heading;
       document.getElementById("intro_para").innerHTML =
         data.main.entry_content.intro;
+     
+        // Map Fetching
+      function renderIframeFromJSON(data) {
+        const iframeURL =
+          data.main.location.src;
+        const iframeWidth =
+          data.main.location.width;
+        const iframeHeight =
+          data.main.location.height;
+
+        const iframe = document.createElement("iframe");
+
+        iframe.src = iframeURL;
+        iframe.width = iframeWidth;
+        iframe.height = iframeHeight;
+        iframe.style.padding = "0";
+
+        document.getElementById("iframeContainer").appendChild(iframe);
+      }
+      renderIframeFromJSON(data);
     })
 
     .catch((error) => {
       console.error("There was a problem with the fetch operation:", error);
     });
 });
+-

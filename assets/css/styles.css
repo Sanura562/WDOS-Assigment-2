@@ -301,7 +301,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: #163020;
+  background-color: #20472f;
   font-family: sans-serif;
 }
 
@@ -860,12 +860,6 @@ footer {
 
 .newsletter-button:hover {
   background-color: #45a049;
-}
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
 }
 
 .login-container {

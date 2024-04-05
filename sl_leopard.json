@@ -2,7 +2,7 @@
   "Leopard_heading": "The Sri Lankan Leopard",
   "flexbox1": [
     {
-      "park_head": "<a href=\"https://www.kumananationalpark.com/\">Kumana National Park</a>",
+      "park_head": "Kumana National Park",
       "about": "Visitors can explore Kumana National Park through guided safaris, which can include jeep tours and boat safaris along the lagoons. The park offers a more tranquil and less crowded alternative to some of the busier national parks in Sri Lanka.",
       "image": {
         "src": "assets/img/flexbox-container1-65a0f06971dd6.webp",
@@ -10,7 +10,7 @@
       }
     },
     {
-      "park_head": "<a href=\"https://en.wikipedia.org/wiki/Horton_Plains_National_Park\">Horton Plains National Park</a>",
+      "park_head": "Horton Plains National Park",
       "about": "While leopard sightings in Horton Plains are less common compared to parks like Yala, visitors may still have the chance to spot these elusive cats in the higher elevations of the park.",
       "image": {
         "src": "assets/img/Horton-place.jpg",
