@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Editor Page</title>
+    <style>
+      /* Style for the pop-up */
+      .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid black;
+        padding: 20px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the Editor Page</h1>
+
+    <button onclick="openPopup()">Edit</button>
+
+    <div id="popup" class="popup">
+      <h2>Edit Page</h2>
+      <!-- Add your editing functionality here -->
+      <textarea></textarea>
+      <button onclick="saveChanges()">Save</button>
+      <button onclick="closePopup()">Cancel</button>
+    </div>
+
+    <script>
+      function openPopup() {
+        document.getElementById("popup").style.display = "block";
+      }
+
+      function closePopup() {
+        document.getElementById("popup").style.display = "none";
+      }
+
+      function saveChanges() {
+        // Add your save functionality here
+        alert("Changes saved!");
+        closePopup();
+      }
+    </script>
+  </body>
+</html>

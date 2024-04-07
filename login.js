@@ -29,8 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
           if (user) {
             alert("Login successful! Welcome, " + user.username);
+            localStorage.setItem("Current_User", user.username);
             // Redirect to google.com
-            window.location.href = "index.html";
+            window.location.href = "dashboard.html";
           } else {
             alert("Invalid username or password. Please try again.");
           }

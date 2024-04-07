@@ -6,43 +6,88 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="/assets/css/dash.css" />
   </head>
+  <style>
+    /* Button styles */
+    .btn {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
   <body>
-    <header>
-      <h1>Welcome to the Dashboard</h1>
-      <button id="logoutBtn">Logout</button>
-    </header>
-    <div class="container">
-      <div class="page">
-        <h2>Home Page</h2>
-        <button class="editBtn" data-page="page1">Edit</button>
-      </div>
-      <div class="page">
-        <h2>WildLife</h2>
-        <button class="editBtn" data-page="page2">Edit</button>
-      </div>
-      <div class="page">
-        <h2>Department</h2>
-        <button class="editBtn" data-page="page3">Edit</button>
-      </div>
-      <div class="page">
-        <h2>Page 4</h2>
-        <button class="editBtn" data-page="page4">Edit</button>
-      </div>
-      <div class="page">
-        <h2>Page 5</h2>
-        <button class="editBtn" data-page="page5">Edit</button>
-      </div>
-      <div class="page">
-        <h2>Page 6</h2>
-        <button class="editBtn" data-page="page6">Edit</button>
-      </div>
-      <div class="page">
-        <h2>Page 7</h2>
-        <button class="editBtn" data-page="page7">Edit</button>
-      </div>
+    <div
+      id="loginMessage"
+      style="
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+      "
+    >
+      <h1>Please Login to access the Dashboard!</h1>
+      <button class="btn">
+        <a href="./login.html" style="text-decoration: none; color: white"
+          >Log In</a
+        >
+      </button>
     </div>
 
+    <div id="dash">
+      <header>
+        <h1>Welcome to the Dashboard</h1>
+        <button id="logoutBtn">Logout</button>
+      </header>
+      <div class="container">
+        <div class="page">
+          <h2>Home Page</h2>
+          <button class="editBtn" data-page="page1">Edit</button>
+        </div>
+        <div class="page">
+          <h2>WildLife</h2>
+          <button class="editBtn" data-page="page2">Edit</button>
+        </div>
+        <div class="page">
+          <h2>Department</h2>
+          <button class="editBtn" data-page="page3">Edit</button>
+        </div>
+        <div class="page">
+          <h2>Sri Lankan Leopard</h2>
+          <button class="editBtn" data-page="page4">Edit</button>
+        </div>
+        <div class="page">
+          <h2>Animals</h2>
+          <button class="editBtn" data-page="page5">Edit</button>
+        </div>
+        <div class="page">
+          <h2>Wilpattu</h2>
+          <button class="editBtn" data-page="page6">Edit</button>
+        </div>
+        <div class="page">
+          <h2>Yala</h2>
+          <button class="editBtn" data-page="page7">Edit</button>
+        </div>
+      </div>
+
+      <section id="subscriptions">
+        <div class="subscriptionsEmails">
+          <h1 class="emialTitle">Subscription Emails</h1>
+          <ol id="emialLists"></ol>
+        </div>
+      </section>
+    </div>
     <!-- JavaScript -->
-    <script src="script.js"></script>
+    <script src="dash.js"></script>
   </body>
 </html>
