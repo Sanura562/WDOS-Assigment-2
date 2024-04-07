@@ -9,7 +9,7 @@ if (currentUser == null) {
   if (currentUser == "user") {
     document.getElementById("subscriptions").style.display = "none";
   } else {
-    function table_generator(json_path) {
+    function sub(json_path) {
       // Function to create the body of the table
       let code = ``;
       for (let i = 0; i < json_path.length; i++) {
@@ -22,8 +22,7 @@ if (currentUser == null) {
 
     // Check if subscriptions is not null and is an array
     if (subscriptions && Array.isArray(subscriptions)) {
-      document.getElementById("emialLists").innerHTML =
-        table_generator(subscriptions);
+      document.getElementById("emialLists").innerHTML = sub(subscriptions);
     } else {
       // Handle the case where subscriptions is not found or not an array
       console.error("Subscriptions data is missing or invalid.");
