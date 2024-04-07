@@ -43,12 +43,12 @@ document.getElementById("logoutBtn").addEventListener("click", function () {
 document.getElementById("logoutBtn").addEventListener("click", logout);
 
 // Function to handle editing pages
-function editPage(pageName) {
-  // Redirect the user to the edit page for the selected page
-  alert("Editing " + pageName);
-  // For demo purposes, redirecting to an edit page with the page name as a parameter
-  window.location.href = "editPage.html?page=" + pageName;
-}
+// function editPage(pageName) {
+//   // Redirect the user to the edit page for the selected page
+//   alert("Editing " + pageName);
+//   // For demo purposes, redirecting to an edit page with the page name as a parameter
+//   window.location.href = "editPage.html?page=" + pageName;
+// }
 
 if (currentUser == "admin") {
   alert("Welcome Admin");
