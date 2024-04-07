@@ -97,6 +97,34 @@
   </body>
   <script src="leopard.js"></script>
   <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const newsletterForm = document.getElementById("newsletterForm");
+
+            newsletterForm.addEventListener("submit", function (event) {
+              event.preventDefault(); // Prevent form submission
+
+              const email = document.getElementById("email").value;
+
+              // Save email to localStorage
+              saveEmailToLocalStorage(email);
+
+              // Clear input field
+              document.getElementById("email").value = "";
+
+              alert("Thank you for subscribing to our newsletter!");
+            });
+            function saveEmailToLocalStorage(email) {
+              let subscriptions =
+                JSON.parse(localStorage.getItem("subscriptions")) || [];
+              subscriptions.push(email);
+              localStorage.setItem(
+                "subscriptions",
+                JSON.stringify(subscriptions)
+              );
+            }
+          });
+        </script>
+  <script>
     const toggleBtn = document.querySelector(".toggle_btn");
     const toggleBtnIcon = document.querySelector(".toggle_btn i");
     const dropdownMenu = document.querySelector(".dropdown_menu");

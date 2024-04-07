@@ -131,7 +131,7 @@
 
               alert("Thank you for subscribing to our newsletter!");
             });
-            -function saveEmailToLocalStorage(email) {
+            function saveEmailToLocalStorage(email) {
               let subscriptions =
                 JSON.parse(localStorage.getItem("subscriptions")) || [];
               subscriptions.push(email);
@@ -139,7 +139,7 @@
                 "subscriptions",
                 JSON.stringify(subscriptions)
               );
-            };
+            }
           });
         </script>
 
