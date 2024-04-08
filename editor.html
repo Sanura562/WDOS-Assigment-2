@@ -1,50 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Editor Page</title>
-    <style>
-      /* Style for the pop-up */
-      .popup {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 400px;
-        height: 300px;
-        background-color: white;
-        border: 1px solid black;
-        padding: 20px;
-        display: none;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Welcome to the Editor Page</h1>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>popup</title>
+</head>
+<body>
+  <div class="editor">
+    <label for="page">Select Page: </label>
+    <select name="page" id="page" class="selectPage">
+      <option value="index">Home Page</option>
+      <option value="Wildlifeintro">Introduction Page</option>
+      <option value="depart">Department Page</option>
+      <option value="Animals">Animals Page</option>
+      <option value="leopard">Leopard Page</option>
+      <option value="Yala">Yala Page</option>
+      <option value="Wilpattu">Wilpattu Page</option>
+    </select>
 
-    <button onclick="openPopup()">Edit</button>
-
-    <div id="popup" class="popup">
-      <h2>Edit Page</h2>
-      <!-- Add your editing functionality here -->
-      <textarea></textarea>
-      <button onclick="saveChanges()">Save</button>
-      <button onclick="closePopup()">Cancel</button>
-    </div>
-
-    <script>
-      function openPopup() {
-        document.getElementById("popup").style.display = "block";
-      }
-
-      function closePopup() {
-        document.getElementById("popup").style.display = "none";
-      }
-
-      function saveChanges() {
-        // Add your save functionality here
-        alert("Changes saved!");
-        closePopup();
-      }
-    </script>
-  </body>
-</html>
+    <button id="selectPage" class="selectBTN">Select Page</button>
+    <button id="saveChanges" class="saveB TN">Save Changes</button><br /><br />
+    <textarea
+      name=""
+      class="jsonTextarea"
+      id="textarea"
+      cols="100"
+      rows="20"
+    ></textarea>
+  </div>
+  <script src="editor.js"></script>
+</body>

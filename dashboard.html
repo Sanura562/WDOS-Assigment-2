@@ -1,93 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="stylesheet" href="/assets/css/dash.css" />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="/assets/css/dash.css" />
+    <link rel="stylesheet" href="assets/css/dash.css" />
   </head>
-  <style>
-    /* Button styles */
-    .btn {
-      background-color: #007bff;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-      text-transform: uppercase;
-      transition: background-color 0.3s ease;
-    }
-
-    .btn:hover {
-      background-color: #0056b3;
-    }
-  </style>
   <body>
-    <div
-      id="loginMessage"
-      style="
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        flex-direction: column;
-      "
-    >
-      <h1>Please Login to access the Dashboard!</h1>
-      <button class="btn">
-        <a href="./login.html" style="text-decoration: none; color: white"
-          >Log In</a
-        >
-      </button>
-    </div>
+    <style>
+      /* Button styles */
+      .btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+      }
 
-    <div id="dash">
-      <header>
-        <h1>Welcome to the Dashboard</h1>
-        <button id="logoutBtn">Logout</button>
-      </header>
-      <div class="container">
-        <div class="page">
-          <h2>Home Page</h2>
-          <button class="editBtn" data-page="page1">Edit</button>
-        </div>
-        <div class="page">
-          <h2>WildLife</h2>
-          <button class="editBtn" data-page="page2">Edit</button>
-        </div>
-        <div class="page">
-          <h2>Department</h2>
-          <button class="editBtn" data-page="page3">Edit</button>
-        </div>
-        <div class="page">
-          <h2>Sri Lankan Leopard</h2>
-          <button class="editBtn" data-page="page4">Edit</button>
-        </div>
-        <div class="page">
-          <h2>Animals</h2>
-          <button class="editBtn" data-page="page5">Edit</button>
-        </div>
-        <div class="page">
-          <h2>Wilpattu</h2>
-          <button class="editBtn" data-page="page6">Edit</button>
-        </div>
-        <div class="page">
-          <h2>Yala</h2>
-          <button class="editBtn" data-page="page7">Edit</button>
-        </div>
+      .btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+    <body>
+      <div
+        id="loginMessage"
+        style="
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+          flex-direction: column;
+        "
+      >
+        <h1>Please Login to access the Dashboard!</h1>
+        <button class="btn">
+          <a href="./login.html" style="text-decoration: none; color: white"
+            >Log In</a
+          >
+        </button>
       </div>
 
-      <section id="subscriptions">
-        <div class="subscriptionsEmails">
-          <h1 class="emialTitle">Subscription Emails</h1>
-          <ol id="emialLists"></ol>
+      <div id="dash">
+        <header>
+          <h1>Welcome to the Dashboard</h1>
+          <button id="logoutBtn">Logout</button>
+        </header>
+        <div class="container">
+          <div class="page">
+            <h2>Home Page</h2>
+
+            <button class="openpop" id="openPopup" onclick="openPopup()">
+              Edit
+            </button>
+            <button><a href="index.html">View</a></button>
+          </div>
+          <div class="page">
+            <h2>WildLife</h2>
+            <button class="openpop" id="openPopup" onclick="openPopup()">
+              Edit
+            </button>
+            <button><a href="wildlifeintro.html">View</a></button>
+          </div>
+          <div class="page">
+            <h2>Department</h2>
+            <button class="openpop" id="openPopup" onclick="openPopup()">
+              Edit
+            </button>
+            <button><a href="departmentwc.html">View</a></button>
+          </div>
+          <div class="page">
+            <h2>Sri Lankan Leopard</h2>
+            <button class="openpop" id="openPopup" onclick="openPopup()">
+              Edit
+            </button>
+            <button><a href="sl_leopard.html">View</a></button>
+          </div>
+          <div class="page">
+            <h2>Animals</h2>
+            <button class="openpop" id="openPopup" onclick="openPopup()">
+              Edit
+            </button>
+            <button><a href="animalsinsl.html">View</a></button>
+          </div>
+          <div class="page">
+            <h2>Wilpattu</h2>
+            <button class="openpop" id="openPopup" onclick="openPopup()">
+              Edit
+            </button>
+            <button><a href="wilpattu.html">View</a></button>
+          </div>
+          <div class="page">
+            <h2>Yala</h2>
+            <button class="openpop" id="openPopup" onclick="openPopup()">
+              Edit
+            </button>
+            <button><a href="yala.html">View</a></button>
+          </div>
         </div>
-      </section>
-    </div>
-    <!-- JavaScript -->
-    <script src="dash.js"></script>
+
+        <section id="subscriptions">
+          <div class="subscriptionsEmails">
+            <h1 class="emialTitle">Subscription Emails</h1>
+            <ol id="emialLists"></ol>
+          </div>
+        </section>
+      </div>
+      <!-- JavaScript -->
+      <script src="dash.js"></script>
+      <script src=""></script>
+      <script>
+        // document.querySelector(".headingPopup").classList.remove("display-none");
+        // const getPopup = (
+        //   <span class="popup" onclick="openPopup()">
+        //     ▶
+        //   </span>
+        // );
+        document
+          .getElementById("openPopup")
+          .insertAdjacentHTML("beforeend", getPopup);
+        // }
+
+        function openPopup() {
+          window.open("editor.html", "", "width = 800px, height = 410px");
+        }
+
+        function handleViewClick(url) {
+          window.location.href = url;
+        }
+      </script>
+    </body>
   </body>
 </html>

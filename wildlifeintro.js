@@ -83,7 +83,9 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then((content) => {
       // Save data to local storage
-      localStorage.setItem("Wildlifeintro", JSON.stringify(content));
+      if (!localStorage.getItem("Wildlifeintro")) {
+        localStorage.setItem("Wildlifeintro", JSON.stringify(data));
+      }
 
       const data = JSON.parse(localStorage.getItem("Wildlifeintro"));
 

@@ -8,7 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
       return response.json();
     })
     .then((content) => {
-      localStorage.setItem("depart", JSON.stringify(content));
+      if (!localStorage.getItem("depart")) {
+        localStorage.setItem("depart", JSON.stringify(content));
+      }
 
       const data = JSON.parse(localStorage.getItem("depart"));
       console.log(data);
