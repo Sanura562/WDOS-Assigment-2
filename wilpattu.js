@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then((content) => {
       if (!localStorage.getItem("Wilpattu")) {
-        localStorage.setItem("Wilpattu", JSON.stringify(data));
+        localStorage.setItem("Wilpattu", JSON.stringify(content));
       }
 
       const data = JSON.parse(localStorage.getItem("Wilpattu"));
